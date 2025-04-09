@@ -4,9 +4,9 @@
   "description": "building an environment",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.mjs",
-    "build": "parcel build public/index.html",
-    "dev": "parcel public/index.html"
+    "start": "nodemon app.mjs",
+    "build": "parcel build src/index.html --dist-dir dist --no-source-maps",
+    "dev": "live-server src --entry-file=index.html"
   },
   "keywords": [],
   "author": "",

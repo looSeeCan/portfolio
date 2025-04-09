@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+@import url("https://db.onlinewebfonts.com/c/16e7dbc91a89779c7a30cb39919cf041?family=BR+Omega+Bold");
+
+@font-face {
+  font-family: "Br Omega";
+  src: url("../fonts/BR\ Omega\ Light.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, #2272ff 0%, #7661fc 100%);
+}
+
+header,
+label,
+input {
+  font-family: "BR Omega";
+}
+
+section {
+  font-family: "Poppins";
+}
+
+.hexa {
+  width: 240px;
+  height: 140px;
+  background-color: rgba(245, 247, 255, 1);
+  border-left: 1px solid #7565f4;
+  border-right: 1px solid #7565f4;
+}
+
+.hexa::before {
+  content: "";
+  width: inherit;
+  border-left: 1px solid #7565f4;
+  border-right: 1px solid #7565f4;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(245, 247, 255, 1);
+  transform: rotate(60deg);
+}
+
+.hexa::after {
+  content: "";
+  width: inherit;
+  border-left: 1px solid #7565f4;
+  border-right: 1px solid #7565f4;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(245, 247, 255, 1);
+  transform: rotate(-60deg);
+}
+
+.hexa-blue {
+  width: 240px;
+  height: 140px;
+  background-color: #7565f4;
+  border-left: 1px solid #7565f4;
+  border-right: 1px solid #7565f4;
+}
+
+.hexa-blue::before {
+  content: "";
+  width: inherit;
+  border-left: 1px solid #7565f4;
+  border-right: 1px solid #7565f4;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #7565f4;
+  transform: rotate(60deg);
+}
+
+.hexa-blue::after {
+  content: "";
+  width: inherit;
+  border-left: 1px solid #7565f4;
+  border-right: 1px solid #7565f4;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #7565f4;
+  transform: rotate(-60deg);
+}

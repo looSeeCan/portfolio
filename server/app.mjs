@@ -13,7 +13,7 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(process.cwd(), "dist", "index.html"));
 });
 
-const PORT = process.env.PORT || 5003;
+const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, () => {
   console.log(`Listening at Port ${PORT}`);
